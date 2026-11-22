@@ -1,0 +1,10 @@
+# Local datasets (keep large images and dataset metadata out of Git)
+/data/dataset_stages/
+/data/sar_test_raw/
+
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+
+# Training checkpoints, smoke-test crops, and inference outputs
+/runs/
